@@ -63,6 +63,21 @@ main p {
     padding: 10px;
 }
 
+main ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+main img {
+    border: 10px solid #D9D8D7;
+    display: block;
+    margin: auto;
+}
+
 footer {
     color: white;
     padding: 20px;

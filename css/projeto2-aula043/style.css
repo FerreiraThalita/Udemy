@@ -1,0 +1,71 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html, body {
+    /*background: url(imagens/fundo500-3.jpg) no-repeat;*/
+    background-image: linear-gradient(to bottom, #A6A6A6, #0D0D0D); 
+    background-size: cover;
+}
+
+header {
+    background-color: #D9D8D7;
+    width: 100vw;
+    height: 120px;
+    padding: 10px;
+}
+
+header h1 {
+    font-family:"Sriracha", cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+header li{
+    display: inline;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #545159;
+}
+
+header a:hover {
+     color: #58ACFA;
+     text-decoration: underline;
+     transition: .2s;
+}
+
+main {
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: center;
+}

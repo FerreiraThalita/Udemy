@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Sriracha&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,17 +9,11 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.sriracha-regular {
-    font-family: "Sriracha", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 html, body {
-    /*background: url(imagens/fundo500-3.jpg) no-repeat;*/
-    background-image: linear-gradient(to bottom, #A6A6A6, #0D0D0D); 
-    background-size: cover;
-}
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #A6A6A6, #0D0D0D);
+ }
 
 header {
     background-color: #D9D8D7;
@@ -51,7 +48,7 @@ header a:hover {
 
 main {
     background-color: white;
-    width: 80vw;
+    width: 50vw;
     margin: auto;
     padding: 20px;
     margin-top: 20px;
@@ -76,6 +73,7 @@ main img {
     border: 10px solid #D9D8D7;
     display: block;
     margin: auto;
+    max-width: 300px;
 }
 
 main p.detalhe {

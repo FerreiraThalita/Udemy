@@ -1,0 +1,16 @@
+
+@media screen and (min-width: 650px) {
+
+body {
+    background: url(imagens/fundo500-3.jpg) repeat-x;
+    background-size: contain;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 50vw;
+}
+
+}

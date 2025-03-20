@@ -78,6 +78,10 @@ main img {
     margin: auto;
 }
 
+main p.detalhe {
+    text-indent: 0px;
+}
+
 footer {
     color: white;
     padding: 20px;

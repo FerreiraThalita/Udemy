@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 760px) and (max-width: 922px) {
+@media screen and (min-width: 670px) and (max-width: 922px) {
 
     body {
         background-image: url(../imagens/fundo500.jpg);
@@ -16,11 +16,11 @@
     body {
         background: url(../imagens/fundo500-3.jpg) no-repeat;
         background-size: cover;
-        background-position: left;
+        background-position: center;
     }
 
     header {
-        height: 100px;
+        height: 110px;
     }
 
     header h1 {

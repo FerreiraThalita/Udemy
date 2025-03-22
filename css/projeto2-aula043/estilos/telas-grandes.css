@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 760px) and (max-width: 922px) {
+
+    body {
+        background-image: url(../imagens/fundo500.jpg);
+        background-size: cover;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#pc {display: none;}
+}
+
+@media screen and (min-width: 922px) {
+
+    body {
+        background: url(../imagens/fundo500-3.jpg) no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 2.6em;
+    }
+
+    main {
+        font-size: 1.2em;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#pc {display: block;}
+
+}
